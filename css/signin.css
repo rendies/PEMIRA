@@ -1,0 +1,82 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.card-calon-title {
+  margin-bottom: 15px;
+  height:35px;
+  font-weight: bold;
+  border-bottom:1px solid silver;
+  box-shadow: 1px 0px 5px black;
+}
+
+.card-calon {
+  margin-bottom: 15px;
+  border:1px solid silver;
+  box-shadow: 1px 1px 5px black;
+}
+
+.foto {
+
+  width: 250px;
+  height:250px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px black;
+  border:1px solid silver;
+
+}
+
+.calon-name {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.alertBox {
+  position: absolute;
+  top:0px;
+  border: 1px solid silver;
+  min-height: 20px;
+  min-width: 50px;
+  margin: auto;
+  left: 50%;
+  right: 50%;
+  display: none;
+  background: green;
+}
